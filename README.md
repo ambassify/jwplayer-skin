@@ -22,7 +22,8 @@ I removed this because there seem to be some problems with some versions of flas
 
 Todo
 ----
-Add bubobox-no-brand.xml which will generate a brandless player in the make build step
+* Add bubobox-no-brand.xml which will generate a brandless player in the make build step
+* Remove non uses elements are use small images to make the resulting builded skin xml smaller
 
 License
 -------
