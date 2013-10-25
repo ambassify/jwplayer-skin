@@ -32,6 +32,7 @@ Todo
 ----
 * Add bubobox-no-brand.xml which will generate a brandless player in the make build step
 * Remove non uses elements are use small images to make the resulting builded skin xml smaller
+* Also create a zip version of the skin. This is needed for the flash version of jwplayer
 
 License
 -------
