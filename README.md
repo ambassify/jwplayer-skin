@@ -20,6 +20,14 @@ I removed the fullscreen button in the skin by removing the following lines in t
 
 I removed this because there seem to be some problems with some versions of flash player and fullscreen.
 
+Skin Builder
+------------
+To use the skin builder you should have a skin folder in the `src` directory that contains a xml file. The folder name and xml file should have the same name. To build the skin you can then use following command:
+
+	./skin-builder.py skinname
+
+This generated skin will be saved in the dist folder.
+
 Todo
 ----
 * Add bubobox-no-brand.xml which will generate a brandless player in the make build step
