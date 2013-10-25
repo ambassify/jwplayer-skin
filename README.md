@@ -6,17 +6,17 @@ You can also use this repository to create a custom player skin and use it in yo
 
 Usage
 -----
-`make clean`: Clean dist folder
-`make build`: Create distribution zips, these zips can be uses a skin in jwplayer
-`make deploy`: Deploy skin to S3
-`make all`: Do all above
+`make clean`: Clean dist folder<br />
+`make build`: Create distribution zips, these zips can be uses a skin in jwplayer<br />
+`make deploy`: Deploy skin to S3<br />
+`make all`: Do all above<br />
 
 Fullscreen
 ----------
 I remove the fullscreen button in the skin by removing the following lines in the elements part of the skin XML:
 
-><element name="fullscreenButton" src="fullscreenButton.png" />
-><element name="fullscreenButtonOver" src="fullscreenButtonOver.png" />
+`<element name="fullscreenButton" src="fullscreenButton.png" />
+<element name="fullscreenButtonOver" src="fullscreenButtonOver.png" />`
 
 I removed this because there seems to be some problems with some versions of flash player and fullscreen.
 
