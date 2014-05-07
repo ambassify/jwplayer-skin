@@ -28,6 +28,12 @@ To use the skin builder you should have a skin folder in the `src` directory tha
 
 This generated skin will be saved in the dist folder.
 
+Preview
+-------
+There is a very easy way to test you newly build skin. Open the following link in your browser after you did a `make build`:
+
+	http://api.bubobox.com/entry/player/32210?skin=[your dist/xml url]
+
 Todo
 ----
 * Add bubobox-no-brand.xml which will generate a brandless player in the make build step
