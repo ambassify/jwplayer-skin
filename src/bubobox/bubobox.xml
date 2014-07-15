@@ -46,6 +46,9 @@
 				<element name="volumeSliderRail" src="volumeSliderRail.png" />
 				<element name="volumeSliderBuffer" src="volumeSliderBuffer.png" />
 				<element name="volumeSliderProgress" src="volumeSliderProgress.png" />
+				
+				<element name="fullscreenButton" src="fullscreenButton.png" />
+				<element name="fullscreenButtonOver" src="fullscreenButtonOver.png" />
 			</elements>
 		</component>
 		
